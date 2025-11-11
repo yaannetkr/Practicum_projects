@@ -146,5 +146,3 @@ LEFT JOIN all_bought ON all_bought.race=payer_race_users.race
 LEFT JOIN payer_users ON payer_race_users.race=payer_users.race
 GROUP BY count_race_users.race, count_users, count_buyer, avg_amount, sum_amount, count_bought, payer_users, payer_users.count_payer_users
 ORDER BY count_users DESC;
--- Задача 2: Частота покупок
--- Напишите ваш запрос здесь
